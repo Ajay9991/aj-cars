@@ -1,0 +1,375 @@
+Introduction:
+
+My self Ajaykumar Ambati Professional Software Engineer with more than 3.6 years of experience in AWS cloud platform. involved in projects like
+Infrastructure deployment, cost optimization, cloud migrations, and Management of AWS production accounts.
+
+•	Worked with Lift & Shift project where customer landscape migrated to Cloud (AWS) 
+•	Hands-on Cloud Endure Migration tool 
+•	Have a good understanding of Cloud Domain (IAAS and PAAS).
+•	Working Experience in Clouds like AWS.
+•	Good communication and interpersonal skills with strong work ethics.
+
+Company name : Currently I am working in YTEK INNOVATIVE (OPC) PVT LTD, Bengaluru.
+
+Salary : 4.8 Lakhs per Anum 
+
+is mainly into outsourcing, developing and consulting company.
+Company Address : 3rd Floor, Tushar Arcade, Service Rd, Naagarabhaavi, Bengaluru, 
+Karnataka 560072
+
+
+Linux:
+
+What is top command In Linux? 
+
+The top (table of processes) command shows a real-time view of running processes in Linux and displays kernel-managed tasks.
+
+What does awk command in Linux?
+
+Awk is a utility that enables a programmer to write tiny but effective programs in the form of statements that define text patterns that are to be 
+searched for in each line of a document and the action that is to be taken when a match is found within a line. Awk is mostly used for pattern
+scanning and processing.
+
+
+Tell me what are commands you know in linux?
+
+To create new directory-Mkdir,to createfile-touch <> filename ,listing files in directory -ls, to find the pathe of current working folder-pwd,
+to navigate  through linux files and directories-cd
+To create file-cat
+to move the files-mv
+to create new directory-mkdir
+To remove or delete directory-rmdir (or) rm-r
+to create a blank new file through linux-touch
+To locate a file-locate/find
+to search throudh all th text in a given file-Grep
+To perform tasks that requires administrative or root permissions-sudo
+To report systems disk space usage-df
+To review commands-history
+to add text in file-echo
+to create user-useradd
+to add a passwrd-passsrd
+to check the connectivity status-ping
+
+I want to replace a word in a file, which command you will use?
+
+From the Home tab, click the Replace command. Alternatively, you can press Ctrl+H on your keyboard. The Find and Replace dialog box will appear.
+
+What is the command used to check the free space?
+
+That command is df -H. The -H switch is for human-readable format. The output of df -H will report how much space is used, available, percentage used
+
+how to verify free memory?
+
+Linux free -m
+The most common way you'll see on the web to check for free memory in Linux is by using the free command. Using the free -m command to check your
+ Linux memory usage,
+displays the values as MB instead of KB.
+
+how to extend volume?
+
+To extend the file system on each volume, use the correct command for your file system, as follows:
+[XFS volumes] To extend the file system on each volume, use the xfs_growfs command. ...
+[ext4 volumes] To extend the file system on each volume, use the resize2fs command.
+
+GIT:
+
+what is your branching strategy?
+
+A branching strategy, therefore, is the strategy that software development teams adopt when writing, merging and deploying code 
+when using a version control system. It is essentially a set of rules that developers can follow to stipulate how they interact with a shared codebase.
+
+what is diff between git fetch and git pull?
+
+git fetch is the command that tells yowhat is diff between git fetch and git pullur local git to retrieve the latest meta-data info from the original 
+(yet doesn't do any file transferring. 
+It's more like just checking to see if there are any changes available). git pull on the other hand does that AND brings (copy) 
+those changes from the remote repository.
+
+what is git rebase?
+
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and 
+easily visualized in the context of a 
+feature branching workflow.
+
+what are webhooks?
+
+Webhooks allow you to build or set up integrations, such as GitHub Apps or OAuth Apps, which subscribe to certain events on GitHub.com.
+ When one of those events is triggered, we'll send a HTTP POST payload to 
+the webhook's configured URL.
+
+Jenkins:
+
+what is your jenkins architecure?
+
+The Jenkins CI server checks the repository at regular intervals and pulls any newly available code. The Build Server builds
+ the code into an executable file. In case the build fails, feedback is sent to the developers. Jenkins deploys the build application
+ to the test server.
+
+what is master and slave?
+
+The Jenkins master acts to schedule the jobs, assign slaves, and send builds to slaves to execute the jobs. 
+It will also monitor the slave state (offline or online) and get back the build result responses from slaves 
+and the display build results on the console output.
+
+how you will add slave to master?
+
+Jenkins Master Slave Configuration
+Then click on the option Manage Nodes.
+Click on the option New Node in the left menu.
+Provide a name for your slave node. ...
+After Clicking OK, following configuration page will appear for machine Slave1. ...
+After selecting Launch Method as Launch agent via Java Web Start, save changes.
+
+what are different types of jenkins pipeline?
+
+scripted and declarative pipeline
+
+Declarative pipelines break down stages into individual stages that can contain multiple steps.
+ Scripted pipelines use Groovy code and references to the Jenkins pipeline DSL within 
+the stage elements without the need for steps.
+
+What is Declarative pipeline syntax?
+
+Declarative Pipeline is a relatively recent addition to Jenkins Pipeline which presents a more simplified and 
+opinionated syntax on top of the Pipeline sub-systems. All valid Declarative Pipelines must be enclosed within a pipeline block,
+ for example: pipeline { /* insert Declarative Pipeline here */ }
+
+
+what are plugin you used in jenkins?
+
+JUnit Plugin
+The most common types of build in Jenkins are the ones that test the application. By default, Jenkins can run JUnit tests and 
+it provides you with the test results.
+ If you want to get more insight into the test trends, you will need this plugin.
+
+how to take backup of jenkins?
+
+Follow the steps given below to have a backup in place.
+Step 1 − Click on Manage Jenkins and choose the 'Manage Plugins' option.
+Step 2 − In the available tab, search for 'Backup Plugin'. ...
+Step 3 − Now when you go to Manage Jenkins, and scroll down you will see 'Backup Manager' as an option. ...
+Step 4 − Click on Setup.
+
+
+I have a senario - we have declerative pipeline with multi stages, one stage is failing but i want to proceed with next stage. what you will do?
+How do I continue Jenkins pipeline after failed stage?
+
+Use try/catch around stage 2. ...
+or built-in catchError which also will mark the build red in case of exception. ...
+Thank you for the excellent comments @EngineerDollery and @izzekil. ...
+The closest I could get is to catch the failure, save the failed stage, then after the last stage finishes, set the failed stages as "FAILURE".
+
+AWS:
+
+tell me what are services you worked in aws?
+
+> Ec2,S3,AmazonS39 For fast data transfer,Amazon Dynomo DB, Amazon RDS,VPC,Cloud front9 High speed data transfer),
+AWs beansstalk(supports running & managing 
+web applications),Auto scaling,s3,glacier,AWs I am, Amazon cloudwatch, Route 53
+
+what is public and private subnets?
+
+> A public subnet is a subnet that's associated with a route table that has a route to an internet gateway, there is no IGW for Private
+
+we have instance in private how to connect to s3?
+
+>  You need to have a NAT device running in public subnet. So that the instance in private subnet of VPC can access internet via NAT and access S3
+if we lost pem key how we will recover
+
+> First, create a new instance by creating new access file, call it 'helper' instance with same region and VPC as of the lost pem file instance.Now stop
+ the lost pem file instance. Remember not to terminate instance but to stop it. Go to EBS volumes, select the root volume of the lost pem file instance 
+and detach
+
+what are s3 policies?
+
+> S3 bucket policy is an object that allows you to manage access to specific Amazon S3 storage resources
+
+what are cloudfront?
+
+> Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content
+
+what is alb?
+
+> Application Load Balancer (ALB) is a fully managed layer 7 load balancing service that load balances incoming traffic across multiple targets
+
+what you worked in alb?
+> yes
+
+have you used cloudwatch?
+>yes
+
+have you crarted any triggers and alarams?
+
+> Login to the AWS Management Console and choose AWS Chatbot. Choose Configure new client notice option to select either Chime or Slack. Select
+ Slack and choose Configure
+
+> What is Route 53 and when it is used?
+
+Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service. You can use Route 53 to perform three main functions in 
+any combination: domain registration, DNS routing, and health checking. Your website needs a name, such as example.com.
+
+Ansible :
+
+How do you create role in Ansible?
+
+Step 1: Create Ansible Role – vhost.
+Step 2: Create ansible tasks.
+Step 3: Create ansible handlers.
+Step 4: Create ansible template.
+Step 5: Remove unwanted directories (Optional)
+Step 6: Create post execution tasks.
+Step 7: Create ansible role playbook.
+
+what are handlers in ansible?
+
+Sometimes you want a task to run only when a change is made on a machine. For example, you may want to restart a service if a task updates the
+ configuration of that service, but not if the configuration is unchanged. 
+Ansible uses handlers to address this use case. Handlers are tasks that only run when notified.
+
+how you will run ansible playbook?
+
+Run Your First Command and Playbook. Install Ansible. Establish a manual connection to a managed node. Run your first network Ansible command. Create and run your first network Ansible Playbook. ...
+Use Ansible network roles.
+Beyond the basics.
+Working with network connection options.
+Resources and next steps.
+
+terraform:
+
+what are modules in terraform?
+
+A Terraform module is a set of Terraform configuration files in a single directory. Even a simple configuration 
+consisting of a single directory with one or more .tf files is a module. 
+When you run Terraform commands directly from such a directory, it is considered the root module.
+
+what is statefile?
+
+Terraform stores information about your infrastructure in a state file. 
+This state file keeps track of resources created by your configuration and maps them to real-world resources.
+
+what happenes if statefile is deleted?
+
+The terraform state rm subcommand removes specific resources from your state file. This does not remove the resource from your configuration or 
+destroy the infrastructure itself. Change into your root directory.
+
+how to import manually a module or resource into statefile?
+
+To import a simple resource into Terraform, follow the below step-by-step guide.
+Prepare the EC2 Instance. ...
+Create main.tf and Set Provider Configuration. ...
+Write Config for Resource To Be Imported. ...
+Import. ...
+Observe State Files and Plan Output. ...
+Improve Config To Avoid Replacement. ...
+Improve Config To Avoid Changes.
+
+what is terraform taint?
+
+The terraform taint command informs Terraform that a particular object has become degraded or damaged. Terraform represents this by 
+marking the object as "tainted" in the Terraform state, 
+and Terraform will propose to replace it in the next plan you create.
+
+docker:
+
+How do you write a Dockerfile?
+
+Get started with Docker Compose
+Step 1: Setup. ...
+Step 2: Create a Dockerfile. ...
+Step 3: Define services in a Compose file. ...
+Step 4: Build and run your app with Compose. ...
+Step 5: Edit the Compose file to add a bind mount. ...
+Step 6: Re-build and run the app with Compose. ...
+Step 7: Update the application.
+
+what is different b/w add and copy in docker?
+
+COPY is a docker file command that copies files from a local source location to a destination in the Docker container.
+ ADD command is used to copy files/directories into a Docker image. 
+It only has only one assigned function. It can also copy files from a URL.
+
+what is diff between cmd and entrypoint?
+
+They both specify programs that execute when the container starts running, but: CMD commands are ignored by Daemon
+ when there are parameters stated within the docker run command. ENTRYPOINT instructions are not ignored but instead are appended as
+ command line parameters 
+by treating those as arguments of the command
+
+how to secure docker images in docker?
+
+Best practices to secure Docker containers
+Regularly update Docker and host. Make sure that Docker and the host are up-to-date. ...
+Run containers as a non-root user. ...
+Configure resource quotas. ...
+Set container resource limits. ...
+Keep images clean. ...
+Secure container registries. ...
+Monitor API and network security.
+
+how to verify logs of container in docker?
+
+First of all, to list all running containers, use the docker ps command. Then, with the docker logs command you can list
+ the logs for a particular container. Most of the time you'll end up tailing these logs in real time, 
+or checking the last few logs lines
+
+How do I get into a Docker container's shell?
+
+Using the Docker run command to run a container and access its shell.
+Using the Docker exec command to run commands in an active container.
+Using the Docker start command and attach a shell to a stopped container.
+
+how to check running and stopped containers?
+
+This guide shows you how to list, stop, and start Docker containers.
+A Linux-based operating system. ...
+As you can see, the image above indicates there are no running containers. ...
+To list containers by their ID use –aq (quiet): docker ps –aq.
+To list the total file size of each container, use –s (size): docker ps –s.
+
+kubernetes:
+
+tell me master and worker compoenets in kubernates?
+
+A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. 
+Every cluster has at least one worker node. The worker node(s) host the Pods that are the components of the application workload.
+The control plane manages the worker nodes and the Pods in the cluster.
+
+what are manifest files in kubernetes?
+
+A Kubernetes Manifest files are the heart of Kubernetes. These plaintext configuration files describe how a pod's containers should
+ be run and connected to other objects, such as services or replication controllers. Kubernetes uses a declarative model rather than an
+ imperative model for Pod specification.
+
+what are configmaps and secrets in kubernetes?
+
+Both ConfigMaps and secrets store the data the same way, with key/value pairs, but ConfigMaps are meant for plain text data, 
+and secrets are meant for data that you don't want anything or 
+anyone to know about except the application
+
+what are namespaces in kubernetes?
+
+Namespaces are a way to organize clusters into virtual sub-clusters — they can be helpful when different teams or projects 
+share a Kubernetes cluster. Any number of namespaces are supported within a cluster, each logically separated from others 
+but with the ability to communicate with each other.
+
+How do you create a cluster in Kubernetes?
+
+How to Create a Kubernetes Cluster on Ubuntu 16.04 with kubeadm and Weave Net
+Step 1 - Get each server ready to run Kubernetes. ...
+Step 2 - Set up each server in the cluster to run Kubernetes. ...
+Step 3 - Setup the Kubernetes Master. ...
+Step 4 - Join your nodes to your Kubernetes cluster
+
+monitoring:
+
+Cloudwatch is a monitering tool in AWS
+
+database:
+
+A database is an organized collection of structured information, or data, typically stored electronically in a computer system.
+
+Which database is best in AWS?
+
+In general, you will find RDS, DynamoDB, and DocumentDB to be good initial choices with wide support for tooling, languages, 
+and flexible data usage patterns. In this article, we discuss a variety of databases: relational,
+ document, key-value, graph, in-memory, and search.
